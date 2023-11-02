@@ -1,0 +1,1337 @@
+*{
+   padding: 0px;
+   margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-section{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 70%;
+    height: 60%;
+}
+.logo img{
+    width: 65%;
+    height: 80%;
+    object-fit: cover;
+}
+.info{
+    width: 30%;
+    margin-right: 0px;
+    margin-top: 12px;
+}
+.info h2{
+    display: inline-block;
+    color: rgb(211, 38, 38);
+    font-size: 25px;
+    font-weight: 900;
+    word-spacing: 4px;
+    border-bottom: 4px solid red;
+    border-color:  rgb(211, 38, 38);
+}
+.info h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.info p{
+    font-size: 26px;
+    font-weight: 600;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #9c1e1e;
+}
+
+.navbar li{
+    display: inline-flex;
+    padding: 20px;
+    font-size: 22px;
+} 
+.menu li a{
+   color: white;
+   font-display: none;
+   text-decoration: none;
+} 
+.navbar li a:hover{
+    background-color: #63166d;
+    }
+.menu{
+    text-align: right;
+    margin-right: 39px;
+}
+.main-header{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 30px;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+.content-left{
+    width: 49.5%;
+}
+.banner-img{
+    width: 100%;
+    margin-top: 10px;
+    height: 494px;
+}
+.road-img img{
+    height: 80%;
+   }
+   .content-right{
+  background-image: url('form_bg.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: inherit;
+    width: 49.5%;
+    height: 494px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.content{
+    display: flex;
+}
+.have-question{
+    width: 60%;
+}
+.Question h1{
+    background-color: #9c1e1e;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding: 3px;
+    font-family: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+.have-question p{
+font-size: 18px;
+    font-weight: 400;
+    margin-top: -21px;
+    font-family: inherit;
+    text-align: end;
+}
+.have-question span{
+     font-size: 21px;
+    color: #3e1c8d;
+    font-weight: 900;
+}
+.enter h1{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    
+}
+.enter span{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.form-section{
+    display: flex;
+}
+.form{
+     width: 60%;
+    margin: auto 50px;
+}
+.confidential{
+    width: 40%;
+}
+.form input{
+      width: 60%;
+    margin-top: 10px;
+    padding: 6px;
+}
+.confidential img {
+    width: 95%;
+    transform: rotate(10deg);
+    margin-top: 36px;
+    margin-right: 16px;
+    /* margin-left: -34px; */
+}
+.text-area{
+        height: 20%;
+    width: 65%;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.text-area input{
+    width: 156%;
+    padding: 25px;
+    font-size: 20px;
+    padding-top: 9px;
+    padding-left: 4px;
+}
+.privacy-section{
+     display: flex;
+    margin-top: 0%;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+.privacy-right {
+    background-color: brown;
+    padding: 12px;
+}
+.privacy-left h1{
+font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 22px;
+    margin-left: 38px;
+}
+.ask-us h1{
+font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+.ask-us img{
+      width: 14px;
+    height: 15px;
+    margin-left: 6px;
+}
+.charged h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    text-align: center;
+}
+.charged span{
+    font-size: 28px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.parent{
+    display: flex;
+}
+.parent-text pre{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-left: auto;
+    margin-top: 15px;
+    text-align: center ;
+}
+.logo-check-boxs img{
+    /* width: 111px;
+    height: 164px;
+    margin-left: 30px; */
+    width: 130px;
+    height: 138px;
+    justify-content: center;
+    padding-left: 26px;
+}
+.left-button{
+    margin-top: 20px;
+    padding: 12px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+}
+.left-button img{
+    width: 9px;
+    height: 12px;
+    margin-left: 6px;
+}
+.left-button h1{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    text-align: center;
+}
+.law-blog h1{
+      font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    padding-left: 79px;
+}
+.law-blog span{
+    font-size: 30px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.learn-more pre{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inherit;
+}
+.parent-text{
+    display: flex;
+}
+.parent-text2 {
+    display: flex;
+}
+.main-sec{
+    display: flex;
+    width: 100%;
+}
+.tv-img{
+    width: 220px;
+    height: 121px;
+    margin-left: 30px;
+    margin-top: -21px;
+}
+.mid-button{
+
+        padding: 12px;
+        display: flex;
+        margin-left: 60px;
+    }
+    .mid-button h1 {
+        font-size: 15px;
+        font-weight: 600;
+        font-family: inherit;
+        color: white;
+        background-color: brown;
+        padding: 12px;
+        text-align: center;
+    }
+.mid-button img{
+    width: 9px;
+    height: 12px;
+    margin-left: 6px;
+}
+.case h1{
+      font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    margin-left: 69px;
+}
+.case span{
+    font-size: 28px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.see pre{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inherit;
+    margin-top: 4px;
+}
+.book img{
+    width: 185px;
+    height: 121px;
+    margin-left: 0px;
+    margin-top: -21px;
+}
+.mid2-button {
+    padding: 12px;
+    display: flex;
+    margin-left: 60px;
+}
+.mid2-button h1 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    text-align: center;
+}
+.mid2-button img{
+    width: 9px;
+    height: 12px;
+    margin-left: 6px;
+}
+.sec-right{
+    display: flex;
+}
+.right-imgs-1 img{
+    width: 152px;
+    height: 114px;
+    margin-left: 74px;
+    margin-top: 43px;
+}
+.right-imgs-2 img{
+    width: 130px;
+    height: 123px;
+    margin-top: 41px;
+    margin-left: 32px;
+}
+.heading-right  pre{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: 1px;
+    margin-top: 4px;
+    color: black;
+}
+.heading-right  span{
+    font-size: 24px;
+    font-weight: 600;
+    color: brown;
+    font-family: auto;
+}
+.kafeer-text pre{
+font-weight: 500;
+    font-family: inherit;
+    margin-top: -21px;
+}
+.right-btn{
+    width: 43%;
+    background-color: brown;
+    margin-top: 21px;
+    padding: 12px;
+    margin-left: 220px;
+}
+.right-btn h1{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    margin-left: 13px;
+}
+.right-btn img{
+    width: 9px;
+    height: 12px;
+    margin-left: 6px;
+}
+.practice pre{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: -21px;
+    margin-top: 31px;
+    color: black;
+}
+.practice span{
+    font-size: 27px;
+    font-weight: 600;
+    color: brown;
+    font-family: auto;
+}
+.DUI-parent{
+    width: 91%;
+    background-color: brown;
+    margin-left: 47px;
+    margin-top: -37px;
+    
+}
+.child-DUI{
+    background-color: #778793;
+    margin-left: 10px;
+    padding: 3px;
+    margin-top: 24px;
+}
+.child-h1{
+    margin-top: 24px;
+}
+.child-h1 h1{
+    color: white;
+    font-size: 25px;
+}
+.main-sec-img img{
+    width: 70%;
+    height: 8px;
+    margin-top: 50px;
+    padding: 1px;
+    margin-left: 232px;
+
+}
+.DUI-btn h1{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    margin-left: 13px;
+}
+.DUI-btn{
+    text-align: center;
+    margin-top: 3px;
+}
+.DUI-btn img{
+    width: 14px;
+    height: 15px;
+    margin-left: 6px;
+}
+.reckless-parent{
+    width: 91%;
+    background-color: brown;
+    margin-left: 47px;
+    margin-top: -11px;
+}
+.reckless-h1 h1{
+font-size: 30px;
+}
+.learn-more-about pre{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: -21px;
+    margin-top: 60px;
+    color: black;
+}
+.learn-more-about span{
+    font-size: 27px;
+    font-weight: 600;
+    color: brown;
+    font-family: auto;
+}
+.left-menu pre{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: 64px;
+    margin-top: 40px;
+    color: black;
+}
+.title h1{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: auto;
+
+    margin-top: 34px;
+    color: black;
+    text-align: center;
+}
+.section-3{
+    display: flex;
+    width: 99%;
+    margin: 0%;
+    padding: 0%;
+}
+.left{
+    width: 23%;
+}
+.middle-section-3{
+    width: 60%;
+}
+.middle-paraghraph pre{
+    font-size: 29px;
+    font-weight: 400;
+    font-family: auto;
+    margin-top: 23px;
+}
+.client-title h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px;
+    word-spacing: -5px;
+    text-align: center;
+}
+.read-what pre{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: 4px;
+    color: #526a7c;
+}
+.client-title span{
+    font-size: 30px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.right-button{
+    width: 58%;
+    background-color: brown;
+    margin-top: -13px;
+    padding: 12px;
+    margin-left: 91px
+}
+.right-button img{
+    width: 14px;
+    height: 15px;
+    margin-left: 6px;
+}
+.right-button h1{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    margin-left: 13px;
+}
+
+.download-title h1{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+    word-spacing: -5px;
+    /* margin-left: 69px; */
+    text-align: center;
+}
+.download-title span{
+    font-size: 30px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.discover pre{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: 4px;
+    color: #526a7c;
+}
+.contact-title h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    text-align: center; 
+}
+.contact-title span{
+    font-size: 30px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.discover-2 pre{
+    font-size: 18px;
+    margin-top: 4px;
+}
+ .super-img img{
+    width: 61%;
+    margin-left: 83px;
+    margin-top: 49px;
+    
+}
+.national-clg-img img{
+    width: 45%;
+    margin-left: 113px;
+    margin-top: 49px;
+    
+}
+.follow h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 27px;
+    word-spacing: -5px;
+    margin-left: 109px;
+   }
+.follow span{
+    font-size: 30px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.shadow-img img{
+    margin-left: 81px;
+}
+.logo-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 77px;
+}
+.fb-logo{
+    margin-right: 20px;
+}
+.fb-logo img{
+    margin-right: 10px;
+    width: 128%;
+}
+.google-logo{
+    margin-right: 20px;
+}
+.google-logo img{
+    margin-right: 10px;
+    width: 128%;
+}
+.twittor-logo{
+    margin-right: 20px;
+}
+.twittor-logo img{
+    margin-right: 10px;
+    width: 128%;
+}
+.linkdon-logo{
+    margin-right: 20px;
+}
+.linkdon-logo img{
+    margin-right: 10px;
+    width: 128%;
+}
+
+@media(min-width: 320px) and (max-width: 480px){
+    .header-section {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        height: 100px;
+    }
+    .logo img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+    }
+    .info {
+        width: auto;
+        margin-right: 0px;
+        margin-top: 12px;
+        justify-content: center;
+        display: grid;
+}
+.info h2 {
+    display: inline-block;
+    color: rgb(211, 38, 38);
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 4px;
+    border-color: rgb(211, 38, 38);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.info p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.navbar li {
+    display: flex;
+    padding: 20px;
+    font-size: 22px;
+    justify-content: center;
+}
+.main-header {
+    height: 70vh;
+    display: contents;
+    width: 100%;
+    margin: 0%;
+    padding: 30px;
+    font-family: sans-serif;
+}
+.content-left {
+    width: 100%;
+}
+.banner-img {
+    width: 100%;
+    height: 50%;
+}
+.content-right {
+    background-image: url(form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: inherit;
+    width: 100%;
+        height: 434px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.Question h1 {
+    background-color: #9c1e1e;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding: 3px;
+    font-family: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+.have-question {
+    width: 61%;
+    margin-top: 8px;
+}
+.have-question span {
+font-size: 17px;
+    color: #3e1c8d;
+    font-weight: 900;
+}
+.have-question p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -40px;
+    font-family: inherit;
+}
+.enter span {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+}
+.enter h1 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+}   
+.form {
+     width: 70%;
+    margin: auto 0px;
+}
+.form input {
+    width: 66%;
+    margin-top: 10px;
+    padding: 4px;
+}
+.confidential {
+    width: 40%;
+    /* justify-content: center; */
+}
+.confidential img {
+    width: 90%;
+    transform: rotate(21deg);
+    margin-top: 36px;
+}
+.text-area input {
+    width: 156%;
+    padding: 25px;
+    font-size: 12px;
+    padding-top: 9px;
+    padding-left: 4px;
+}
+.privacy-section {
+    display: flex;
+    padding-left: 3%;
+}
+.privacy-left h1 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 62px;
+    text-align: center;
+}
+.privacy-right {
+    width: auto;
+    background-color: brown;
+    margin-top: 47px;
+    padding: 12px;
+    margin-left: 31px;
+}
+.ask-us h1 {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+.main-sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.charged h1 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 20px;
+    word-spacing: -5px;
+    margin-left: -23px;
+}
+.charged span {
+    font-size: 25px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}
+.parent {
+    display: flex;
+}
+.logo-check-boxs img {
+    width: 123px;
+    height: 138px;
+    justify-content: center;
+    padding-left: 19px;
+}
+.left-button {
+    width: 50%;
+    background-color: brown;
+    margin-top: 20px;
+    padding: 12px;
+    margin-left: 108px;
+}
+.law-blog h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    margin-left: -62px;
+}
+.parent-text2 {
+    display: flex;
+}
+.learn-more pre {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: inherit;
+    margin-left: -48px;
+    margin-top: 10px;
+}
+.tv-img {
+    width: 75%;
+    height: 90px;
+    margin-left: 40px;
+    margin-top: -21px;
+}
+.mid-button {
+    width: 50%;
+    background-color: brown;
+    margin-top: 15px;
+    padding: 12px;
+    margin-left: 108px;
+}
+.mid-button h1 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    margin-left: 13px;
+}
+.case h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    margin-left: 10px;
+}
+.book img {
+    width: 103%;
+    height: 121px;
+    margin-left: 0px;
+    margin-top: -21px;
+}
+.parent-text pre {
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: -57px;
+}
+.mid2-button {
+    width: 50%;
+    background-color: brown;
+    margin-top: 7px;
+    padding: 12px;
+    margin-left: 108px;
+}
+.sec-right {
+    display: flex;
+    margin-top: 10px;
+}
+.right-imgs-1 img {
+    width: 110px;
+    height: 114px;
+    margin-left: 35px;
+    margin-top: 43px;
+}
+.right-imgs-2 img {
+    width: 103px;
+    height: 113px;
+    margin-top: 41px;
+    margin-left: 32px;
+}
+.heading-right pre {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: -52px;
+    margin-top: 18px;
+    color: black;
+}
+.kafeer-text pre {
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: -8px;
+    margin-left: -58px;
+}
+.right-btn {
+    width: 52%;
+    background-color: brown;
+    margin-top: 21px;
+    padding: 12px;
+    margin-left: 113PX;
+}
+.section-3 {
+    display: contents;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.left {
+    width: 66%;
+}
+.DUI-parent {
+    width: 91%;
+    background-color: brown;
+    margin-left: 47px;
+    margin-top: -37px;
+}
+.child-h1 h1 {
+    color: white;
+    font-size: 15px;
+}
+.DUI-btn {
+    /* margin-left: 130px; */
+    margin-top: 3px;
+}
+.DUI-btn h1 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    /* margin-left: -46px; */
+    text-align: center;
+}
+.main-sec-img img {
+    width: 86%;
+    height: 8px;
+    margin-top: 50px;
+    padding: 1px;
+    margin-left: 14px;
+}
+.learn-more-about pre {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: -2px;
+    margin-top: 60px;
+    color: black;
+    text-align: center;
+}
+.learn-more-about span {
+    font-size: 18px;
+    font-weight: 600;
+    color: brown;
+    font-family: auto;
+}
+.left-menu pre {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: auto;
+    margin-left: 18px;
+    margin-top: 40px;
+    color: black;
+    /* text-align: center; */
+}
+.middle-section-3 {
+    width: 100%;
+}
+.title h1 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: auto;
+    margin-top: 34px;
+    color: black;
+}
+.middle-paraghraph pre {
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: 23px;
+    text-align: center;
+}
+.client-title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px;
+    word-spacing: -5px;
+    /* margin-left: 69px; */
+    text-align: center;
+}
+.client-title span {
+    font-size: 25px;
+    font-weight: 600;
+    color: brown;
+}
+.read-what pre {
+    font-size: 20px;
+    /* font-weight: 500; */
+    font-family: inherit;
+    /* margin-left: 49px; */
+    margin-top: 4px;
+    /* color: #526a7c; */
+    /* width: 59%; */
+    text-align: center;
+}
+.download-title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    word-spacing: -5px;
+    /* margin-left: 69px; */
+    text-align: center;
+}
+.discover pre {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: 4px;
+    color: #526a7c;
+}
+.contact-title h1 {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    text-align: center;
+}
+.discover-2 pre {
+    font-size: 18px;
+    margin-top: 4px;
+}
+.super-img img {
+    width: 50%;
+    margin-left: 96px;
+    margin-top: 49px;
+}
+.national-clg-img img {
+    width: 38%;
+    margin-left: 113px;
+    margin-top: 49px;
+}
+.follow h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+    word-spacing: -5px;
+    margin-left: 83px;
+    /* text-align: center; */
+}
+.logo-section {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 62px;
+}
+}
+
+
+@media(min-width: 481px) and (max-width: 767px){
+
+    .header-section {
+        display: flex;
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+        height: 60%;
+    }
+    .logo img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    .info {
+        width: auto;
+        margin-right: 0px;
+        margin-top: 12px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .info h2 {
+        display: inline-block;
+        color: rgb(211, 38, 38);
+        font-size: 24px;
+        font-weight: 900;
+        word-spacing: 4px;
+        border-bottom: 4px solid red;
+        border-color: rgb(211, 38, 38);
+    }
+    .info h1 {
+        font-size: 57px;
+        font-weight: 700;
+    }
+    .info p {
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .navbar li {
+        display: flex;
+        padding: 20px;
+        font-size: 22px;
+        justify-content: center;
+    }
+    .main-header {
+        width: 100%;
+        margin: 0%;
+        font-family: sans-serif;
+        display: contents;
+    }
+     .content-left {
+        width: 100%;
+    }
+    .banner-img {
+        width: 100%;
+        margin-top: 10px;
+        height: 494px;
+    }
+    .content-right {
+        width: 100%;
+    }
+    .privacy-section {
+        display: flex;
+    }
+    .privacy-left h1 {
+     font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 100;
+    }
+    .privacy-right {
+background-color: brown;
+    padding: 12px;
+    height: 53px;
+    }
+    .ask-us h1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    }
+    .main-sec {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+.charged h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    text-align: center;
+}
+.charged span {
+    font-size: 28px;
+    font-weight: 900;
+    color: brown;
+    font-family: monospace;
+}       
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parent-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-text pre {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    margin-top: 15px;
+    text-align: center;
+}
+.logo-check-boxs img {
+    width: 106%;
+}
+.left-button {
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.left-button h1 {
+    font-size: 15px;
+    width: 23%;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    text-align: center;
+}
+.law-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100px;
+}
+.law-blog h1 {
+    font-size: 28px;
+    font-weight: 700;
+    word-spacing: -5px;
+    /* padding-left: 79px; */
+}
+.parent-text2 {
+    display: flex;
+    height: 175px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+.tv-img {
+    height: 121px;
+}
+.mid-button {
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.mid-button h1 {
+    font-size: 15px;
+    width: 23%;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    text-align: center;
+}
+.case h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    word-spacing: -5px;
+    margin-left: 69px;
+    text-align: center;
+}
+.parent-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+.parent-text pre {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+}
+.book img {
+    width: 141px;
+    height: 121px;
+    margin-left: 31px;
+    margin-top: 12%;
+}
+.mid2-button {
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.mid2-button h1 {
+    font-size: 15px;
+    width: 23%;
+    font-weight: 600;
+    font-family: inherit;
+    color: white;
+    background-color: brown;
+    padding: 12px;
+    text-align: center;
+}
+}
